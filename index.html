@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Welcome to Accessible Web Solutions, your partner in building inclusive and SEO-friendly websites." />
+  <meta name="keywords" content="Web Accessibility, SEO, HTML5, Semantic HTML, Inclusive Design" />
+  <meta name="author" content="Accessible Web Solutions" />
+  <title>Accessible Web Solutions | Inclusive & SEO-Friendly Design</title>
+
+  <!-- Open Graph Meta (for better social sharing) -->
+  <meta property="og:title" content="Accessible Web Solutions" />
+  <meta property="og:description"
+    content="Building inclusive and optimized websites with semantic HTML and accessibility in mind." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.accessiblewebsolutions.com/" />
+</head>
+
+<body>
+  <header>
+    <nav aria-label="Main Navigation">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <h1>Accessible Web Solutions</h1>
+    <p>Your partner in inclusive and optimized web design.</p>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About Us</h2>
+      <p>We specialize in building websites that are not only SEO-friendly but also accessible to everyone, including
+        people with disabilities.</p>
+    </section>
+
+    <section id="services">
+      <h2>Our Services</h2>
+      <article>
+        <h3>Semantic HTML Implementation</h3>
+        <p>We use modern, semantic HTML5 elements to structure content in a meaningful and accessible way.</p>
+      </article>
+      <article>
+        <h3>Accessibility Audits</h3>
+        <p>We test and optimize websites to meet WCAG standards for accessibility.</p>
+      </article>
+      <article>
+        <h3>SEO Optimization</h3>
+        <p>We follow best practices for on-page SEO, including proper use of metadata and structured content.</p>
+      </article>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <form action="/submit" method="POST" aria-label="Contact Form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Accessible Web Solutions. All rights reserved.</p>
+  </footer>
+</body>
+
+</html>
